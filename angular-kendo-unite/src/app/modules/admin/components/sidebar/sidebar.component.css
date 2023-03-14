@@ -1,0 +1,47 @@
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    background-color: #090233;
+    align-items: center;
+    justify-content:center;
+    
+    
+}
+
+.sidebar a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none; 
+    color: #ffffff;
+    
+}
+
+.sidebar a:hover{
+    background-color: #ffffff;
+    color: #090233;
+
+}
+
+
+.profile-img img{
+    width: 40px;
+    align-content: center;
+    
+}
+
+.logo img{
+    width: 45px;
+   padding-bottom: 20px;
+   
+}
+
+.menu a{
+    padding: 15px;
+    
+}
+

@@ -1,0 +1,21 @@
+.container-fluid{
+    margin-left: 90px;
+}
+
+b{
+    color:#090233;
+ }
+ 
+ .nav-content a{
+     padding: 15px;
+     color: #3b3b3b; 
+ }
+ 
+ .nav-link {
+     color: #3b3b3b; 
+    
+ }
+ 
+ svg{
+     width: 25px;
+ }
