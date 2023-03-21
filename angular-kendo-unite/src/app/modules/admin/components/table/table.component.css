@@ -1,0 +1,84 @@
+.container {
+    width: calc(100% - 130px);
+    margin-left: 110px;
+}
+
+.table{
+ border-color: rgb(250, 250, 250);
+}
+
+
+tr:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.filter{
+    margin-left: 760px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgb(231, 231, 231);
+    width: 90px;
+    
+}
+
+.title-txt{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.new-btn{
+   margin-left: 20px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+   width: 120px;
+}
+
+.user{
+    width: 48px;
+}
+
+.profile{
+    display: flex;
+}
+
+.txt1{
+    margin-left: 10px;
+    
+}
+.name{
+    font-weight: bold;
+}
+
+.name2{
+    color: rgb(185, 185, 185);
+    font-size: small;
+}
+
+.button1{
+    border: none;
+    background-color: green;
+    color: white;
+    width: 70px;
+}
+
+.icn-txt{
+    color: orange;
+}
+
+.button3{
+    border: none;
+    background-color: rgb(219, 194, 3);
+    color: white;
+    width: 70px;
+}
+
+.icn-txt1{
+    color: green;
+}

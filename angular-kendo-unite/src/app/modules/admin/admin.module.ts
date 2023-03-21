@@ -6,6 +6,7 @@ import { AdminDashboardComponent } from './components/admin-dashboard/admin-dash
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { BodyComponent } from './components/body/body.component';
+import { TableComponent } from './components/table/table.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { BodyComponent } from './components/body/body.component';
     AdminDashboardComponent,
     NavbarComponent,
     SidebarComponent,
-    BodyComponent
+    BodyComponent,
+    TableComponent
   ],
   imports: [
     CommonModule,
