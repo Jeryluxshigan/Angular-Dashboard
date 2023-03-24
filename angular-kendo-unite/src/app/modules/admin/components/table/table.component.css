@@ -1,6 +1,7 @@
 .container {
     width: calc(100% - 130px);
     margin-left: 110px;
+    background-color: #ffffff;
 }
 
 .table{

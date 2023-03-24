@@ -1,0 +1,118 @@
+body{
+    background-color: #1f2326;
+}
+
+.container {
+    width: calc(100% - 130px);
+    margin-left: 110px;
+    background-color: #1f2326;
+    padding-bottom: 20px;
+}
+
+
+.card {
+    background-color: #343a40!important;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+.card .card-img-top {
+    width: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.card .card-body .card-text1 {
+    color: rgb(255, 255, 255);
+    margin: 0 0 2px;
+}
+
+.card .card-body {
+    padding: 10px;
+}
+
+.card .card-body .card-title4 {
+    margin: 0 0 4px;
+    color: #ffa300;
+}
+
+.card .card-body .card-title3 {
+    margin: 0 0 4px;
+    color: #ffa300;
+}
+
+.card .card-body .card-title2 {
+    margin: 0 0 4px;
+    color: #ffa300;
+}
+
+.card .card-body .card-title1 {
+    margin: 0 0 4px;
+    color: #ffa300;
+}
+
+.card .card-body .card-text {
+    font-size: smaller;
+}
+
+.head-content .titile {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.line {
+    padding-left: 10px;
+    color: #d1d1d1;
+    font-size: 20px;
+}
+
+.button .button1 {
+    background-color: #ffa300;
+    color: white;
+    margin-left: 15px;
+    border: none
+}
+
+.sortby {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 500px;
+}
+
+.button .button2 {
+    background: #ffa300;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.line2 {
+    padding-left: 15px;
+    color: #d1d1d1;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button3{
+    padding-left: 15px;
+    color: #ffa300;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button4{
+    padding-left: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card-text{
+color: rgb(255, 255, 255);
+}

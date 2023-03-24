@@ -7,6 +7,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { BodyComponent } from './components/body/body.component';
 import { TableComponent } from './components/table/table.component';
+import { DarkBodyComponent } from './components/dark-body/dark-body.component';
+import { DarkTableComponent } from './components/dark-table/dark-table.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { TableComponent } from './components/table/table.component';
     NavbarComponent,
     SidebarComponent,
     BodyComponent,
-    TableComponent
+    TableComponent,
+    DarkBodyComponent,
+    DarkTableComponent
   ],
   imports: [
     CommonModule,
