@@ -1,0 +1,448 @@
+/* Nav-bar-Component */
+$title-text: #090233;
+$content: #3b3b3b;
+
+.nav-container-fluid {
+    margin-left: 60px;
+}
+
+b {
+    color: $title-text;
+}
+
+.nav-content a {
+    padding: 15px;
+    color: $content;
+}
+
+.nav-link {
+    color: $content;
+
+}
+
+svg {
+    width: 25px;
+}
+
+/* Side bar component */
+$sidebar: #090233;
+$sidebar-content: white;
+$sidebar-content-hover: white;
+$sidebar-content-hover-background: #090233;
+
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 110%;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: $sidebar;
+
+    a {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+        color: $sidebar-content;
+
+    }
+
+    a:hover {
+        background-color: $sidebar-content-hover;
+        color: $sidebar-content-hover-background;
+
+    }
+}
+
+.profile-img img {
+    width: 40px;
+    align-content: center;
+
+}
+
+.logo img {
+    width: 45px;
+    padding-bottom: 20px;
+
+}
+
+.menu a {
+    padding: 25px;
+
+}
+
+/* Body component */
+
+$card-bg: #f9f9f9;
+$card2: white;
+$text: rgb(167, 167, 167);
+$title1: #1877f2;
+$title2: #60D669;
+$title3: #FF543E;
+$title4: #F2A240;
+$light-txt: rgb(142, 142, 142);
+$button-primary: green;
+$button-txt: white;
+$button-txt-black: black;
+
+.main-container {
+    width: calc(100% - 25px);
+    margin-left: 10px;
+    padding: 5px;
+
+}
+
+.card-main {
+    background-color: $card-bg;
+    padding: 20px;
+    margin-left: 85px;
+}
+
+.row {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titile {
+    color: $sidebar;
+    font-weight: 700;
+}
+
+.line {
+    padding-left: 10px;
+    color: $light-txt;
+    font-size: 20px;
+}
+
+.button .button1 {
+    background-color: $button-primary;
+    color: $button-txt;
+    margin-left: 15px;
+    border: none;
+}
+
+.sortby {
+    text-decoration: none;
+    color: $light-txt;
+
+}
+
+.button .button2 {
+    background-color: $button-primary;
+    color: $button-txt;
+    margin-left: 15px;
+    border: none;
+    width: 100px;
+}
+
+.line2 {
+    padding-left: 10px;
+    color: $light-txt;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button3 {
+    padding-left: 15px;
+    color: $button-txt-black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button4 {
+    padding-left: 15px;
+    color: $light-txt;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card2 {
+    background-color: $card2 !important;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(207, 207, 207, 0.17), 0 2px 2px 0 rgba(207, 207, 207, 0.17);
+    padding: 10px;
+
+    .card-img-top {
+        width: 60px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-text1 {
+        color: $text;
+        margin: 0 0 2px;
+    }
+
+    .card-text {
+        font-size: smaller;
+    }
+
+    .card-title4 {
+        margin: 0 0 4px;
+        color: $title4;
+    }
+
+    .card-title3 {
+        margin: 0 0 4px;
+        color: $title3;
+    }
+
+    .card-title2 {
+        margin: 0 0 4px;
+        color: $title2 ;
+    }
+
+    .card-title1 {
+        margin: 0 0 4px;
+        color: $title1;
+    }
+
+}
+
+/* Dark body */
+$card-bg1: #1f2326;
+$titile1: white;
+$line: white;
+$button-darker: #ffa300;
+$card-bg: #495057;
+
+.card-main2 {
+    background-color: $card-bg1;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.titile-main {
+    color: $titile1;
+    font-weight: 700;
+}
+
+.line-1 {
+    color: $line;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.button .button-1 {
+    background-color: $button-darker;
+    color: $button-txt-black;
+    margin-left: 15px;
+    border: none;
+}
+
+.sortby {
+    text-decoration: none;
+    color: $light-txt;
+
+}
+
+.button .button-2 {
+    background-color: $button-darker;
+    color: $button-txt-black;
+    margin-left: 15px;
+    border: none;
+    width: 100px;
+}
+
+.line-2 {
+    padding-left: 15px;
+    color: $line;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button-3 {
+    padding-left: 15px;
+    color: $line;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card {
+    background-color: $card-bg !important;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(207, 207, 207, 0.17), 0 2px 2px 0 rgba(207, 207, 207, 0.17);
+    padding: 10px;
+
+    .card-img-top {
+        width: 60px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-text1 {
+        color: $text;
+        margin: 0 0 2px;
+    }
+
+    .card-text1 {
+        font-size: smaller;
+        color: $line;
+    }
+
+    .card-titlee {
+        margin: 0 0 4px;
+        color: $button-darker;
+    }
+
+}
+
+/* Table component */
+$table-bg: white;
+$table-border: #f9f9f9;
+
+.titile-table {
+    color: $sidebar;
+    font-weight: 800;
+}
+
+.filter {
+    background-color: $button-primary;
+    color: $button-txt;
+    margin-left: 73px;
+    border: none;
+    width: 110px;
+}
+
+.new-btn {
+    background-color: $button-primary;
+    color: $button-txt;
+    margin-left: 35px;
+    border: none;
+    width: 110px;
+}
+
+.table {
+    background-color: $table-bg;
+    border-color: $table-border;
+
+    .profile {
+        display: flex;
+    }
+
+    .user {
+        width: 50px;
+    }
+
+    .txt1 {
+        margin-left: 8px;
+    }
+
+    .name2 {
+        color: $text;
+        font-size: small;
+    }
+
+    .button1 {
+        background-color: $button-primary;
+        color: $button-txt;
+        border: none;
+        width: 80px;
+    }
+    .button2{
+        background-color: $button-txt;
+        color: $button-primary;
+        border-color: $button-primary;
+        width: 80px;
+    }
+}
+
+/* Dark-Table component */
+$table-dark-bg:#495057;
+$table-dark-border:#343a40;
+
+.card-main2 {
+    background-color: $card-bg1;
+    padding: 20px;
+    margin-left: 80px;
+}
+.titile-table1 {
+    color: $titile1;
+    font-weight: 700;
+}
+.filter1 {
+    background-color: $button-darker;
+    color: $button-txt;
+    margin-left: 73px;
+    border: none;
+    width: 110px;
+}
+
+.new-btn1 {
+    background-color: $button-darker;
+    color: $button-txt;
+    margin-left: 35px;
+    border: none;
+    width: 110px;
+}
+.table1 {
+    background-color: $table-dark-bg;
+    border-color: $table-dark-border;
+    width: 100%;
+    
+    .profile {
+        display: flex;
+        padding: 10px;
+    }
+
+    .user {
+        width: 50px;
+    }
+
+    .txt1 {
+        margin-left: 8px;
+        color: $button-txt;
+    }
+
+    .name{
+        color: $button-txt;
+    }
+    td{
+        color: $button-txt;
+        padding: 10px;
+    }
+    th{
+        padding: 10px;
+        color: $button-txt; 
+    }
+    tr:hover{
+        background-color: #6c757d;
+    }
+
+    .name2 {
+        color: $text;
+        font-size: small;
+    }
+
+    .button1 {
+        background-color: $button-darker;
+        color: $button-txt;
+        border: none;
+        width: 80px;
+    }
+    .button2{
+        background-color: $button-txt;
+        color: $button-darker;
+        border-color: $button-darker;
+        width: 80px;
+    }
+}
