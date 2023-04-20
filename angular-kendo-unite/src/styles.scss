@@ -2,9 +2,18 @@
 $title-text: #090233;
 $content: #3b3b3b;
 
-.nav-container-fluid {
-    margin-left: 60px;
+.navbar{
+    margin-left: 80px;
 }
+
+.navbar-brand{
+    color:$title-text ;
+     
+    svg{
+        width: 35px;
+    }
+}
+
 
 b {
     color: $title-text;
@@ -19,10 +28,12 @@ b {
     color: $content;
 
 }
-
-svg {
-    width: 25px;
+.icons{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $content;
 }
+
 
 /* Side bar component */
 $sidebar: #090233;
@@ -32,7 +43,7 @@ $sidebar-content-hover-background: #090233;
 
 
 .sidebar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 110%;
@@ -90,10 +101,11 @@ $button-txt: white;
 $button-txt-black: black;
 
 .main-container {
-    width: calc(100% - 25px);
-    margin-left: 10px;
-    padding: 5px;
+    padding: 15px;
 
+}
+.bar1{
+    display: flex;
 }
 
 .card-main {
@@ -114,7 +126,8 @@ a {
 
 .titile {
     color: $sidebar;
-    font-weight: 700;
+    font-weight: 600;
+    margin-left: 10px;
 }
 
 .line {
@@ -128,20 +141,27 @@ a {
     color: $button-txt;
     margin-left: 15px;
     border: none;
+   
 }
 
 .sortby {
     text-decoration: none;
-    color: $light-txt;
-
+    color: $light-txt; 
+}
+.sort{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .button .button2 {
     background-color: $button-primary;
     color: $button-txt;
     margin-left: 15px;
-    border: none;
-    width: 100px;
+    border: none; 
+}
+.act{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .line2 {
@@ -152,14 +172,14 @@ a {
 }
 
 .button3 {
-    padding-left: 15px;
+    padding-left: 10px;
     color: $button-txt-black;
     font-size: 20px;
     text-decoration: none;
 }
 
 .button4 {
-    padding-left: 15px;
+    padding-left: 10px;
     color: $light-txt;
     font-size: 20px;
     text-decoration: none;
@@ -242,6 +262,7 @@ $card-bg: #495057;
     color: $button-txt-black;
     margin-left: 15px;
     border: none;
+   
 }
 
 .sortby {
@@ -255,7 +276,7 @@ $card-bg: #495057;
     color: $button-txt-black;
     margin-left: 15px;
     border: none;
-    width: 100px;
+   
 }
 
 .line-2 {
@@ -310,6 +331,37 @@ $card-bg: #495057;
 $table-bg: white;
 $table-border: #f9f9f9;
 
+@media (max-width:768px){
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+        border: none;
+    }
+    .table tr{
+        margin-bottom: 15px;
+    }
+    .table tbody tr td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+
+    }
+    .table th{
+        border: none;
+    }
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        text-align: left;
+    }
+}
+
 .titile-table {
     color: $sidebar;
     font-weight: 800;
@@ -318,17 +370,17 @@ $table-border: #f9f9f9;
 .filter {
     background-color: $button-primary;
     color: $button-txt;
-    margin-left: 73px;
     border: none;
-    width: 110px;
 }
-
+.fil-btn{
+    display: flex;
+    justify-content: flex-end;
+}
 .new-btn {
     background-color: $button-primary;
     color: $button-txt;
-    margin-left: 35px;
     border: none;
-    width: 110px;
+    margin-left: 10px; 
 }
 
 .table {
@@ -337,10 +389,16 @@ $table-border: #f9f9f9;
 
     .profile {
         display: flex;
+        justify-content: flex-start;
+    }
+
+    th{
+        font-weight: 500;
     }
 
     .user {
-        width: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .txt1 {
@@ -356,19 +414,51 @@ $table-border: #f9f9f9;
         background-color: $button-primary;
         color: $button-txt;
         border: none;
-        width: 80px;
+       
     }
     .button2{
         background-color: $button-txt;
         color: $button-primary;
         border-color: $button-primary;
-        width: 80px;
+        
     }
 }
 
 /* Dark-Table component */
 $table-dark-bg:#495057;
 $table-dark-border:#343a40;
+
+@media (max-width:768px){
+    .table1 thead{
+        display: none;
+        
+    }
+    .table1, .table1 tbody, .table1 tr, .table1 td{
+        display: block;
+        width: 100%;
+        border: none;
+    }
+    .table1 tr{
+        margin-bottom: 15px;
+    }
+    .table1 tbody tr td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+
+    }
+    .table1 th{
+        border: none;
+    }
+    .table1 td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        text-align: left;
+    }
+}
 
 .card-main2 {
     background-color: $card-bg1;
@@ -382,30 +472,33 @@ $table-dark-border:#343a40;
 .filter1 {
     background-color: $button-darker;
     color: $button-txt;
-    margin-left: 73px;
     border: none;
-    width: 110px;
 }
 
 .new-btn1 {
     background-color: $button-darker;
     color: $button-txt;
-    margin-left: 35px;
+    margin-left: 10px;
     border: none;
-    width: 110px;
+    
 }
 .table1 {
     background-color: $table-dark-bg;
     border-color: $table-dark-border;
     width: 100%;
     
+    
     .profile {
         display: flex;
-        padding: 10px;
+        
+    }
+    th{
+        font-weight: 500;
     }
 
     .user {
-        width: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .txt1 {
@@ -437,12 +530,12 @@ $table-dark-border:#343a40;
         background-color: $button-darker;
         color: $button-txt;
         border: none;
-        width: 80px;
+        
     }
     .button2{
         background-color: $button-txt;
         color: $button-darker;
         border-color: $button-darker;
-        width: 80px;
+       
     }
 }
